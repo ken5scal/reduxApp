@@ -6,6 +6,7 @@ import BooksReducer from './reducer_books';
 //   activeBook: {}
 // }
 const rootReducer = combineReducers({
+  // add key to global app state called books.
   books: BooksReducer
 });
 
